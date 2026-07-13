@@ -16,8 +16,8 @@ app.get("/products",(req,res)=>{
     res.render("product",{products})
 })
 
-app.get("/product/new",(req,res)=>{
-    res.render("new")
+app.get("/product/new",(req, res)=>{
+    res.render("new ")
 })
 
 app.post("/products",(req,res)=>{
